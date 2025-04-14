@@ -32,7 +32,7 @@ A clean and modern portfolio website to showcase my work as a Front-End Develope
 
 ## Deployment
 
-This site is deployed using Netlify at [your-site-url-here]
+This site is deployed using Netlify at https://blakejportfolio.netlify.app/
 
 ## Credits
 
