@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" type="image/png" href="./images/favicon.png" />
+
+  <title>
+    Blake's Portfolio
+  </title>
+
+  <meta name="description" content="Add small description of yourslef.">
+  <meta name="keywords" content="Blake Jones, HTML, CSS, Javascript" />
+  <link rel="stylesheet" href="index.css" />
+</head>
+
+<body>
+
+  <!-- ***** Header ***** -->
+
+  <header class="header" role="banner" id="top">
+    <div class="row">
+      <nav class="nav" role="navigation">
+        <ul class="nav__items">
+          <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
+          <!-- <li class="nav__item"><a href="#clients" class="nav__link">Clients</a></li> -->
+          <li class="nav__item">
+            <a href="#about" class="nav__link">About</a>
+          </li>
+          <li class="nav__item">
+            <a href="#contact" class="nav__link">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <div class="header__text-box row">
+      <div class="header__text">
+        <h1 class="heading-primary">
+          <span>Blake Jones</span>
+        </h1>
+        <p>A Front-End Developer based in the Raleigh-Durham-Chapel Hill area of North Carolina. 
+          I am a Front-End Developer with a passion for creating beautiful and functional web applications.
+</p>
+        <a href="#contact" class="btn btn--pink">Get in touch</a>
+      </div>
+    </div>
+  </header>
+
+  <main role="main">
+
+    <!-- ***** Work ***** -->
+
+    <section class="work" id="work">
+      <div class="row">
+        <h2>My Work</h2>
+        <div class="work__boxes">
+
+          <div class="work__box">
+            <div class="work__text">
+              <h3>Restaruant Ordering App</h3>
+              <p>
+                A restaurant ordering app that allows users to order food online.
+              </p>
+              <ul class="work__list">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+              </ul>
+
+              <div class="work__links">
+                <a href="https://restaurantoderingapp.netlify.app/" target="_blank" class="link__text">
+                  Visit Site <span>&rarr;</span>
+                </a>
+                <a href="https://github.com/BlakeJones10/restaurant-ordering-app" title="View Source Code" target="_blank">
+                  <img src="./images/github.svg" class="work__code" alt="GitHub">
+                </a>
+              </div>
+            </div>
+            <div class="work__image-box">
+              <img src="./images/restaurant-ordering-app.png" class="work__image" alt="Project 1" />
+            </div>
+          </div>
+
+          <div class="work__box">
+            <div class="work__text">
+              <h3>Password Generator</h3>
+              <p>
+                A random password generator that generates secure passwords.
+              </p>
+              <ul class="work__list">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+              </ul>
+
+              <div class="work__links">
+                <a href="https://passwordgeneratorsecured.netlify.app/" class="link__text" target="_blank">
+                  Visit Site <span>&rarr;</span>
+                </a>
+                <a href="https://github.com/BlakeJones10/password-generator" target="_blank">
+                  <img src="./images/github.svg" class="work__code" title="View Source Code" alt="GitHub">
+                </a>
+              </div>
+            </div>
+            <div class="work__image-box">
+              <img src="./images/password-generator.png" class="work__image" alt="Project 1" />
+            </div>
+          </div>
+
+          <div class="work__box">
+            <div class="work__text">
+              <h3>Twimba (Small twitter clone)</h3>
+              <p>
+                A simple twitter clone where you can post tweets and reply to other users, while being able to delte them.
+              </p>
+              <ul class="work__list">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+              </ul>
+
+              <div class="work__links">
+                <a href="https://twimba-simpletwitterclone.netlify.app/" class="link__text" target="_blank">
+                  Visit Site <span>&rarr;</span>
+                </a>
+                <a href="https://github.com/BlakeJones10/twimba" target="_blank">
+                  <img src="./images/github.svg" class="work__code" title="View Source Code" alt="GitHub">
+                </a>
+              </div>
+            </div>
+            <div class="work__image-box">
+              <img src="./images/twimba.png" class="work__image" alt="Project 3" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ***** About ***** -->
+
+    <section class="about" id="about">
+      <div class="row">
+        <h2>About Me</h2>
+        <div class="about__content">
+          <div class="about__text">
+            <p>
+              I'm a Front-End Developer based out of North Carolina. I am 23 years old with a recent Associate's Degree in computer programming
+              from Wake Technical Community College. My most used languages are HTML, CSS, JavaScript with some Python. I am excited to continue my studies by learning new tools everyday.
+              Right now I am learning React.js, Node.js and Tailwind CSS.
+            </p>
+            <p>
+              Away from coding I am a big sports fan (Go Tar Heels) and love spending time with my family.
+            </p>
+            <a href="./files/Blake_Jones_Resume.pdf" class="btn" target="_blank">My Resume</a>
+          </div>
+
+          <div class="about__photo-container">
+            <img class="about__photo" src="./images/myself.jpeg" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ***** Contact ***** -->
+
+  <section class="contact" id="contact">
+    <div class="row">
+      <h2>Get in Touch</h2>
+      <div class="contact__info">
+        <p>
+          If you want to get in touch, feel free to reach out to me via email or connect with me on social media.
+          I appreciate any feedback or suggestions you may have.
+          I am always looking for new opportunities and challenges, so if you have a project in mind or just want to chat, don't hesitate to reach out!
+        </p>
+        <a href="mailto:blakejones10@icloud.com" class="btn">blakejones10@icloud.com</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ***** Footer ***** -->
+
+  <footer role="contentinfo" class="footer">
+    <div class="row">
+      <ul class="footer__social-links">
+        <li class="footer__social-link-item">
+          <a href="https://github.com/BlakeJones10" title="Link to Github Profile" target="_blank">
+            <img src="./images/github.svg" class="footer__social-image" alt="Github">
+          </a>
+        </li>
+        <li class="footer__social-link-item">
+          <a href="https://www.linkedin.com/in/blake-jones-b3bba829a/" target="_blank">
+            <img src="./images/linkedin.svg" title="Link to Linkedin Profile" class="footer__social-image" alt="Linkedin">
+          </a>
+        </li>
+      </ul>
+    </div>
+  </footer>
+
+  <a href="#top" class="back-to-top" title="Back to Top">
+    <img src="./images/arrow-up.svg" alt="Back to Top" class="back-to-top__image"/>
+  </a>
+  <script src="./index.js"></script>
+</body>
+
+</html>
