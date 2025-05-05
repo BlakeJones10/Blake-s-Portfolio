@@ -20,9 +20,10 @@ A clean and modern portfolio website to showcase my work as a Front-End Develope
 
 ## Projects Featured
 
-- Restaurant Ordering App
+- Movie Search App
 - Password Generator
-- Twimba (Twitter Clone)
+- JS Blockchain
+- Color Scheme Generator
 
 ## Getting Started
 
